@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: url("hand-font.ttf") format("truetype");
+}
+
 body {
   background-color: pink;
   margin: 30px;
+  font-family: "myFirstFont";
+  font-size: large;
 }
 
 h1 {
