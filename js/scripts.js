@@ -9,19 +9,19 @@ $(document).ready(function() {
     const result = result1 + result2 + result3 + result4 + result5
 
     if (result >= 36 && result !== 40) {
-      $("#swift").show()
+      $("#swift").fadeIn()
     } else {
       $("#swift").hide()
     }
 
     if (result >= 15 && result <= 35 && result !== 24 || result === 40) {
-      $("#java").show()
+      $("#java").fadeIn()
     } else {
       $("#java").hide()
     }
     
     if (result <= 14 || result === 24) {
-      $("#python").show()
+      $("#python").fadeIn()
     } else {
       $("#python").hide()
     }
