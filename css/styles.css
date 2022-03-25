@@ -2,6 +2,11 @@ body {
   background-color: pink;
 }
 
+.veriperi {
+  background-color: #6667AB;
+  text-color: whitesmoke;
+}
+
 .question {
   font-weight: bolder;
 
