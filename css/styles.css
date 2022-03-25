@@ -2,12 +2,38 @@ body {
   background-color: pink;
 }
 
-.veriperi {
-  background-color: #6667AB;
-  text-color: whitesmoke;
-}
-
 .question {
   font-weight: bolder;
+}
 
+#swift {
+  display: none;
+}
+
+#java {
+  display: none;
+}
+
+#python {
+  display: none;
+}
+
+.pythonpage {
+  background-color: #6667AB;
+  color: whitesmoke;
+  text-align: center;
+  margin: 20px;
+}
+.javapage {
+  background-color: #34526f;
+  color: whitesmoke;
+  text-align: center;
+  margin: 20px;
+}
+.swiftpage {
+  background-color: #ffffff;
+  color: rgb(170, 170, 170);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 20px;
 }
