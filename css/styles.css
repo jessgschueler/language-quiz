@@ -20,6 +20,11 @@ button {
   font-weight: bolder;
 }
 
+.doodle {
+  height: 50px;
+  width: auto;
+}
+
 #swift {
   display: none;
   text-align: center;
