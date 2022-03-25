@@ -6,14 +6,16 @@
 body {
   background-color: pink;
   margin: 30px;
-  font-family: "myFirstFont";
-  font-size: large;
 }
 
 h1 {
   text-align: center;
+  font-family: "myFirstFont";
 }
 
+button {
+  font-family: "myFirstFont";
+}
 .question {
   font-weight: bolder;
 }
